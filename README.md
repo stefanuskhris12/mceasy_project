@@ -10,7 +10,6 @@ Untuk client app:
 4. Jalankan command "python3.12 -m pip install -r requirements.txt" untuk menginstall library yang dibutuhkan
    library yang dibutuhkan sudah tertera dalam file requirements.txt
    versi python disesuaikan keinginan (menggunakan python3 juga bisa)
-   jika ingin menggunakan venv yang sudah ada, tidak perlu menjalankan command ini
 6. Jalankan command "python3 -m uvicorn main:app --reload --host 0.0.0.0 --port 8000" untuk menjalankan server
    Port bisa diganti sesuai keinginan
 7. Jalankan command "curl <host:port>/external/sale/list" untuk melihat list SO
