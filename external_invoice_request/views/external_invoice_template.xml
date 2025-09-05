@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="external_invoice_page" name="External Invoice Page" inherit_id="website.layout">
+        <xpath expr="//main" position="inside">
+            <section id="external_invoice_section" class="container mt-4">
+                <h2>External Invoice Request</h2>
+                <div id="external_invoice_form_root"
+                     t-att-data-sale_orders="sale_orders"/>
+            </section>
+        </xpath>
+    </template>
+</odoo>

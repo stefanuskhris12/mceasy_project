@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="external_invoice_request.ExternalInvoiceForm" owl="1">
+        <div class="mt-3">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Order</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <t t-foreach="props.saleOrders" t-as="order" t-key="order.id">
+                        <tr>
+                            <td><t t-esc="order.name"/></td>
+                            <td><t t-esc="order.amount_total"/></td>
+                        </tr>
+                    </t>
+                </tbody>
+            </table>
+        </div>
+    </t>
+</templates>
