@@ -1,5 +1,6 @@
 Code ini tidak bisa berjalan di docker, karena keterbatasan kemampuan saya tentang docker, maka dari itu saya membuat secara native
 Untuk client_app ini juga belum bisa berjalan sesuai dengan ketentuan (hanya bisa melakukan method get)
+Untuk odoo app belum bisa menampilkan OWL 
 
 Cara menjalankan code ini:
 Untuk client app:
